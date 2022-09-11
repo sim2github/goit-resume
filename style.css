@@ -1,0 +1,96 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #e5e5e5;
+  padding: 40px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #fff;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+  width: 1200px;
+  min-height: calc(100vh - 100px);
+  margin: 0 auto;
+}
+
+.main {
+  padding: 90px;
+}
+
+.main h4 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 10px;
+}
+
+.main h4 span {
+  color: #fb6d3a;
+}
+
+.main h3 {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  margin: 40px 0 0 0;
+}
+.main h2 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  margin: 10px 0;
+}
+
+.main h1 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  margin: 10px 0;
+}
+.main p,
+.main a,
+.main ul,
+.main ol {
+  color: #595959;
+}
+
+.main p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 25px 0 0 0;
+  max-width: 400px;
+}
+
+.main ol,
+.main ul {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.main ol > li::marker {
+  font-weight: 700;
+  color: #000;
+}
+
+.main ol span {
+  color: #000;
+}
+
+.main ol,
+.main ul,
+aside ul {
+  margin: 10px 0 0 -20px;
+}
+
+aside {
+  background-color: #1e2939;
+  padding: 40px;
+  color: #fff;
+}
+
+aside img {
+  margin: 0 -40px;
+}

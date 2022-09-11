@@ -2,95 +2,105 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible"
-          content="IE=edge">
+    <meta charset="UTF-8" />
     <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+          content="width=device-width, initial-scale=1.0" />
     <title>Resume</title>
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 </head>
 
 <body>
     <!-- Main -->
-    <div>
-        <!-- about user content -->
-        <div>
-            <h2>Front-End Developer</h2>
-            <h1>
-                Anton Chornyi
-            </h1>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan
-                lacus vel facilisis.
-            </p>
-        </div>
-        <!-- Projects -->
-        <div>
-            <h3>Projects</h3>
-            <ol>
-                <li>
-                    <a href="https://hellenglish.goit.global/">
-                        https://hellenglish.goit.global/
-                    </a>.........[ HTML5, CSS3 ]
-                </li>
-                <li>
-                    <a href="https://cryptohub.goit.global/">
-                        https://cryptohub.goit.global/
-                    </a>.........[ JavaScript ]
-                </li>
-                <li>
-                    <a href="https://kidslike.goit.global/">
-                        https://kidslike.goit.global/
-                    </a>.........[ React.js, Node.js ]
-                </li>
-            </ol>
-        </div>
-        <!-- Work Experience -->
-        <div>
-            <h3>Work Experience</h3>
-            <!-- Company 1 -->
+    <div class="container">
+        <div class="main">
+            <!-- about user content -->
             <div>
-                <h4>Front-End Developer Freelance </h4>
-                <p>September 2019 - up to now | Country</p>
-                <ul>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua.
+                <h2>Front-End Developer</h2>
+                <h1>
+                    Anton Chornyi
+                </h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+                    accumsan lacus vel facilisis.
+                </p>
+            </div>
+            <!-- Projects -->
+            <div>
+                <h3>Projects</h3>
+                <ol>
+                    <li>
+                        <a href="https://hellenglish.goit.global/">
+                            https://hellenglish.goit.global/
+                        </a>
+                        <span class="tags"><strong>[ </strong>HTML5, CSS3<strong> ]</strong></span>
                     </li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                    <li>Risus commodo viverra maecenas. </li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. </li>
-                </ul>
-            </div>
-            <!-- Company 2 -->
-            <div>
-                <h4>Manager Roga & Kopyta New</h4>
-                <p>March 2015 - October 2018 | Country</p>
-                <ul>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua.
+                    <li>
+                        <a href="https://cryptohub.goit.global/">
+                            https://cryptohub.goit.global/
+                        </a>.........[ JavaScript ]
                     </li>
-                    <li>Quis ipsum suspendisse ultrices gravida.</li>
-                    <li>Risus commodo viverra maecenas. </li>
-                </ul>
+                    <li>
+                        <a href="https://kidslike.goit.global/">
+                            https://kidslike.goit.global/
+                        </a>.........[ React.js, Node.js ]
+                    </li>
+                </ol>
             </div>
-            <!-- Company 3 -->
+            <!-- Work Experience -->
             <div>
-                <h4>Manager Roga & Kopyta LLC </h4>
-                <p>June 2014 - February 2015 | Country</p>
-                <ul>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
-                    <li>Quis ipsum suspendisse ultrices gravida.</li>
-                    <li>Risus commodo viverra maecenas. </li>
-                </ul>
+                <h3>Work Experience</h3>
+                <!-- Company 1 -->
+                <div>
+                    <h4>Front-End Developer <span>Freelance</span></h4>
+                    <p>September 2019 - up to now | Country</p>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.
+                        </li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                        <li>Risus commodo viverra maecenas. </li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. </li>
+                    </ul>
+                </div>
+                <!-- Company 2 -->
+                <div>
+                    <h4>Manager <span>Roga & Kopyta New</span></h4>
+                    <p>March 2015 - October 2018 | Country</p>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.
+                        </li>
+                        <li>Quis ipsum suspendisse ultrices gravida.</li>
+                        <li>Risus commodo viverra maecenas. </li>
+                    </ul>
+                </div>
+                <!-- Company 3 -->
+                <div>
+                    <h4>Manager <span>Roga & Kopyta LLC</span></h4>
+                    <p>June 2014 - February 2015 | Country</p>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
+                        <li>Quis ipsum suspendisse ultrices gravida.</li>
+                        <li>Risus commodo viverra maecenas. </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-        <!-- Education -->
-        <div>
-            <h3>Education</h3>
-            <h4>National University of Radioelectronics</h4>
-            <p>Management</p>
-            <p>September 2009 - June 2014 | Country</p>
+            <!-- Education -->
+            <div>
+                <h3>Education</h3>
+                <h4>National University of Radioelectronics</h4>
+                <p>Management</p>
+                <p>September 2009 - June 2014 | Country</p>
+            </div>
         </div>
         <!-- Sidebar content -->
         <aside>
@@ -131,6 +141,8 @@
 
     </div>
 
+    <script type="module"
+            src="/main.js"></script>
 </body>
 
 </html>
