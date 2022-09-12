@@ -44,7 +44,12 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
-  margin-top: 10px;
+  margin: 20px 0 0 0;
+}
+
+.main .works div:first-child h4,
+.main .education div:first-child h4 {
+  margin: 10px 0 0 0;
 }
 
 .main h4 span {
@@ -57,19 +62,23 @@ body {
   line-height: 27px;
   margin: 40px 0 0 0;
 }
-.main h2 {
+
+.main h2,
+.main .h2 {
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
-  margin: 10px 0;
+  margin: 10px 0 0 0;
+  color: var(--main-header-color);
 }
 
 .main h1 {
   font-weight: 700;
   font-size: 45px;
   line-height: 55px;
-  margin: 10px 0;
+  margin: 20px 0 0 0;
 }
+
 .main p,
 .main a,
 .main ul,
@@ -84,17 +93,28 @@ body {
 .main a:hover {
   text-decoration: underline;
 }
-.main p {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  max-width: 400px;
-}
 
 .main p.desc {
+  max-width: 400px;
+  margin: 25px 0 0 0;
+  color: var(--main-text-color);
+}
+
+.main p.caption {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  margin: 10px 0 0 0;
   color: var(--accent-text-color);
 }
 
+.main p.caption span {
+  display: inline-block;
+  margin: 0 10px;
+  color: var(--main-header-color);
+}
+
+.main p,
 .main ol,
 .main ul {
   font-weight: 400;
