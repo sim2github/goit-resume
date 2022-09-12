@@ -212,6 +212,11 @@ aside ul > li::marker {
 	font-weight: 700;
 	color: var(--accent-header-color);
 }
+
 aside img {
 	margin: 0 -40px;
+}
+
+aside .block {
+	margin: 45px 0 0 0;
 }
