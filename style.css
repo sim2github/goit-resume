@@ -28,6 +28,7 @@ body {
 .container {
 	display: flex;
 	flex-direction: row-reverse;
+	justify-content: flex-end;
 	background-color: #fff;
 	box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 	width: 1200px;
@@ -172,6 +173,8 @@ body {
 
 /* aside block styles */
 aside {
+	box-sizing: border-box;
+	width: 370px;
 	background-color: var(--accent-bg-color);
 	padding: 40px;
 	font-weight: 400;
