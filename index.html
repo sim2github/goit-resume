@@ -11,10 +11,8 @@
     <link rel="preconnect"
           href="https://fonts.gstatic.com"
           crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
-          rel="stylesheet">
     <link rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+          href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
 </head>
 
 <body>
@@ -36,22 +34,39 @@
             <!-- Projects -->
             <div>
                 <h3>Projects</h3>
-                <ol>
+                <ol class="toc">
                     <li>
-                        <a href="https://hellenglish.goit.global/">
-                            https://hellenglish.goit.global/
-                        </a>
-                        <span class="tags"><strong>[ </strong>HTML5, CSS3<strong> ]</strong></span>
+                        <div class="flex">
+                            <a href="https://hellenglish.goit.global/">
+                                https://hellenglish.goit.global/
+                            </a>
+                            <div class="dash"></div>
+                            <div class="tags">
+                                HTML5, CSS3
+                            </div>
+                        </div>
                     </li>
                     <li>
-                        <a href="https://cryptohub.goit.global/">
-                            https://cryptohub.goit.global/
-                        </a>.........[ JavaScript ]
+                        <div class="flex">
+                            <a href="https://cryptohub.goit.global/">
+                                https://cryptohub.goit.global/
+                            </a>
+                            <div class="dash"></div>
+                            <div class="tags">
+                                JavaScript
+                            </div>
+                        </div>
                     </li>
                     <li>
-                        <a href="https://kidslike.goit.global/">
-                            https://kidslike.goit.global/
-                        </a>.........[ React.js, Node.js ]
+                        <div class="flex">
+                            <a href="https://kidslike.goit.global/">
+                                https://kidslike.goit.global/
+                            </a>
+                            <div class="dash"></div>
+                            <div class="tags">
+                                React.js, Node.js
+                            </div>
+                        </div>
                     </li>
                 </ol>
             </div>
@@ -61,7 +76,7 @@
                 <!-- Company 1 -->
                 <div>
                     <h4>Front-End Developer <span>Freelance</span></h4>
-                    <p>September 2019 - up to now | Country</p>
+                    <p class="desc">September 2019 - up to now | Country</p>
                     <ul>
                         <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna aliqua.
@@ -74,7 +89,7 @@
                 <!-- Company 2 -->
                 <div>
                     <h4>Manager <span>Roga & Kopyta New</span></h4>
-                    <p>March 2015 - October 2018 | Country</p>
+                    <p class="desc">March 2015 - October 2018 | Country</p>
                     <ul>
                         <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna aliqua.
@@ -86,7 +101,7 @@
                 <!-- Company 3 -->
                 <div>
                     <h4>Manager <span>Roga & Kopyta LLC</span></h4>
-                    <p>June 2014 - February 2015 | Country</p>
+                    <p class="desc">June 2014 - February 2015 | Country</p>
                     <ul>
                         <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
                         <li>Quis ipsum suspendisse ultrices gravida.</li>
@@ -99,7 +114,7 @@
                 <h3>Education</h3>
                 <h4>National University of Radioelectronics</h4>
                 <p>Management</p>
-                <p>September 2009 - June 2014 | Country</p>
+                <p class="desc">September 2009 - June 2014 | Country</p>
             </div>
         </div>
         <!-- Sidebar content -->
@@ -109,9 +124,9 @@
             <!-- Contacts -->
             <div>
                 <h3>Contacts</h3>
-                <div>
-                    <p><span>C:</span><a href="tel:+77777777777">+7 777 777 77 77</a></p>
-                    <p><span>E:</span><a href="mailto:chornyiav@gmail.com">chornyiav@gmail.com</a></p>
+                <div class="contacts">
+                    <p><strong>C:</strong><a href="tel:+77777777777">+7 777 777 77 77</a></p>
+                    <p><strong>E:</strong><a href="mailto:chornyiav@gmail.com">chornyiav@gmail.com</a></p>
                 </div>
             </div>
             <!-- Tech Skills -->
