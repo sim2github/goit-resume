@@ -125,8 +125,16 @@
         </div>
         <!-- Sidebar content -->
         <aside>
-            <img src="img/photo.jpeg"
-                 alt="...">
+            <picture>
+                <source srcset="img/photo.webp"
+                        type="image/webp">
+                <source srcset="img/photo.jpeg"
+                        type="image/jpeg">
+                <img width="370"
+                     height="354"
+                     src="img/photo.jpeg"
+                     alt="...">
+            </picture>
             <!-- Contacts -->
             <div class="block">
                 <h3>Contacts</h3>
